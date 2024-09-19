@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,700;1,800;1,900&family=Montserrat:ital,wght@0,400;1,300;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Lecturer.css">
+    <title>Homepage</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="Logo">Lecturify</a>
+        <div class="bx bx-menu" id="menu-icons"></div>
+            <input type="search" placeholder="Search" class="search">
+            <button type="submit" class="btnss">
+                <i class="bx bx-search"></i>
+            </button>
+        <ul class="navbar">
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Lectures.html">Lecturers</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Service.html">Service</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Login.html">Logout</a></li>
+        </ul>
+    </header>
+    <section class="one">
+        <h1 class="we">
+            <span>Meet Our Lecturers</span><br>
+            Who are always ready to help <span>you</span>
+        </h1>
+        <img class="people" src="/Project/people.png" alt="img">
+        <img class="persons" src="/Project/people.png" alt="img">
+        <img class="person" src="/Project/people.png" alt="img">
+    </section>
+   <section class="two">
+    <div class="team_create">
+        <h1 class="our">
+            Our vast wealth of Lecturers, Tutors, and Educators
+        </h1>
+        <p class="ours">
+            To be the best, It takes eclectic group of passionate people. Get to know the people leading the way at Lecturify.
+        </p>
+    </div>
+    <div class="create_img">
+        <img class="teachers" src="/Project/19 Teachers Who Are Serious Experts At This Whole School Thing 2.jpg" alt="img">
+    </div>
+   </section>
+   <section class="three">
+    <ul class="list_teams">
+        <li class="active_department" onclick="showDepartment('Lecturers')">Lecturers</li>
+        <li onclick="showDepartment('Teachers')">Teachers</li>
+        <li onclick="showDepartment('Private Tutors')">Private Tutors</li>
+        <li onclick="showDepartment('Student Teachers')">Student Teachers</li>
+    </ul>
+    
+    <div id="department-container">
+        
+    </div>
+    
+   </section>
+   <section class="four">
+    <div class="footer">
+        <div class="main">
+            <div class="col">
+                <h4>
+                    Menu links
+                </h4>
+                <ul>
+                    <li><a href="#">MarketPlace</a></li>
+                    <li><a href="#">Lecturers</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>
+                    Our Service
+                </h4>
+                <ul>
+                    <li><a href="#">Tutoring</a></li>
+                    <li><a href="#">Discussion Forums</a></li>
+                    <li><a href="#">Video Lecture Hosting</a></li>
+                    <li><a href="#">Helpdesk Support</a></li>
+                    <li><a href="#">Direct Messaging</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>
+                   Information
+                </h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>
+                    Follow Us
+                </h4>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+        </div>
+    </div>
+</section>
+   <script src="style.js"></script>
+   </body>
+   </html>

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(6, 163, 232)
+}
+.signup{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    background-color:whitesmoke ;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.details{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border:  none #000000;
+    margin: 20px 70px;
+    padding: 0 10px;
+    outline: none;
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+input[type = checkbox]{
+    width: 20px;
+}
+.agree{
+    font-size: 15px;
+    position: relative;
+   bottom: 22px;
+   right: 30px;
+
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border:  none #000000;
+    margin: 20px 70px;
+    padding: 0 10px;
+    outline: none;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+h3{
+    font-size: 13px;
+    margin-bottom: 90px;
+    position: relative;
+    bottom: 10px;
+    right: 95px;
+}
+h1{
+    font-size: 30px;
+    position: relative;
+    right: 110px;
+    bottom: 30px;
+
+}
+img{
+    width: 400px;
+    height: 700px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    left: 100px;
+}
